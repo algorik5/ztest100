@@ -1,1 +1,43 @@
-[]
+[
+    {
+        "id": "86013f34.83e43",
+        "type": "tab",
+        "label": "플로우 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c14d0084.c11e4",
+        "type": "inject",
+        "z": "86013f34.83e43",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 140,
+        "y": 120,
+        "wires": [
+            [
+                "5867db38.f77c94"
+            ]
+        ]
+    },
+    {
+        "id": "5867db38.f77c94",
+        "type": "debug",
+        "z": "86013f34.83e43",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 400,
+        "y": 180,
+        "wires": []
+    }
+]
