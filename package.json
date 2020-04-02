@@ -1,0 +1,12 @@
+{
+    "name": "ztest100",
+    "description": "Node-RED 프로젝트",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        }
+    }
+}
